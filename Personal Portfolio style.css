@@ -181,7 +181,7 @@ img {
 img.profile {
     width: 325px;
     height: 400px;
-    margin-top: -370px;
+    margin-top: -350px;
 }
 
 @media (max-width: 500px) {
