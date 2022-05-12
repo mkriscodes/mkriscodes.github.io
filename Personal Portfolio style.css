@@ -107,7 +107,9 @@ ul {
     align-items: center;
     width: 100%;
     height: 100vh;
-    margin-top: -30px;
+    margin-top: 0;
+    font-weight: 200;
+    margin-bottom: -100px;
 }
 
 .welcome-section>p {
@@ -123,9 +125,7 @@ ul {
 
 h1 {
     color: rgb(39, 199, 228);
-    margin-top: -140px;
-    margin-bottom: 25px;
-    font-size: 35px;
+    margin-top: 0;
 }
 
 h2 {
@@ -136,12 +136,10 @@ h2 {
 
 p {
     margin-top: -30px;
-    margin-bottom: 40px;
 }
 
 p.one {
-    margin-top: -30px;
-    font-size: 30px;
+    margin-bottom: 100px;
 }
 
 p#title {
@@ -157,17 +155,15 @@ p.two {
     color: black;
     width: 75%;
     height: 20%;
+    margin-bottom: -440px;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 500px) {
     h1 {
         margin-top: -160px;
-        font-size: 22px;
     }
     .one {
         text-align: center;
-        font-size: 20px;
-        
     }
     .two {
         margin-top: -30px;
@@ -186,14 +182,15 @@ img {
 
 img.profile {
     width: 325px;
-    height: 400px;
-    margin-top: -360px;
+    height: 425px;
+    margin-top: -350px;
+    margin-bottom: -250px;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 500px) {
     img.profile {
         height: 400px;
-        margin-top: -335px;
+        margin-top: -300px;
     }
 }
 
@@ -205,7 +202,7 @@ img.profile {
 }
 
 .projects-section-header {
-    margin-top: -200rem;
+    margin-top: -500rem;
 }
 
 .project-title {
@@ -218,7 +215,7 @@ img.profile {
         height: 200px;
     }
     .projects-section-header {
-        margin-top: 100px;
+        margin-top: 50px;
     }
     #projects {
         margin-top: -150px;
