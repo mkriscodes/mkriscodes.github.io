@@ -107,9 +107,9 @@ ul {
     align-items: center;
     width: 100%;
     height: 100vh;
-    margin-top: 0;
+    margin-top: -80px;
     font-weight: 200;
-    margin-bottom: -100px;
+    margin-bottom: -150px;
 }
 
 .welcome-section>p {
@@ -145,7 +145,7 @@ p.one {
 p#title {
     color: rgb(39, 199, 228);
     text-align: center;
-    margin-top: -300px;
+    margin-top: -200px;
 }
 
 p.two {
