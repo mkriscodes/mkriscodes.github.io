@@ -160,7 +160,7 @@ p.two {
 
 @media (max-width: 500px) {
     h1 {
-        margin-top: -160px;
+        margin-top: 50px;
     }
     .one {
         text-align: center;
@@ -215,7 +215,7 @@ img.profile {
         height: 200px;
     }
     .projects-section-header {
-        margin-top: 50px;
+        margin-top: 300px;
     }
     #projects {
         margin-top: -150px;
