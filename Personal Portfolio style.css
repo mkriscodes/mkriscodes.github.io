@@ -190,7 +190,7 @@ img.profile {
 @media (max-width: 500px) {
     img.profile {
         height: 400px;
-        margin-top: -300px;
+        margin-top: -100px;
     }
 }
 
@@ -202,20 +202,20 @@ img.profile {
 }
 
 .projects-section-header {
-    margin-top: 0rem;
+    margin-top: 100px;
 }
 
 .project-title {
     margin-top: 5px;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 500px) {
     img {
         width: 300px;
         height: 200px;
     }
     .projects-section-header {
-        margin-top: 80px;
+        margin-top: 270px;
     }
     #projects {
         margin-top: -150px;
