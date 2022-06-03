@@ -1,4 +1,4 @@
-    * {
+     * {
         margin: 20;
         padding: 0;
     }
@@ -168,7 +168,7 @@
     
     .welcome-section-two {
         margin-top: -12rem;
-        margin-bottom: -13rem;
+        margin-bottom: -30rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -180,7 +180,7 @@
     @media (max-width: 500px) {
         .welcome-section-two {
             margin-top: -15rem;
-            margin-bottom: 0px;
+            margin-bottom: -25rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -229,11 +229,11 @@
     /*Projects*/
     
     #projects {
-        margin-top: 16rem;
+        margin-top: -13rem;
     }
     
     .projects-section-header {
-        margin-top: 0rem;
+        margin-top: -12rem;
     }
     
     .project-tile {
@@ -252,13 +252,13 @@
         margin-top: 30px;
     }
     
-    @media (max-width: 500px) {
+    @media (min-width: 500px) {
         img {
             width: 300px;
             height: 200px;
         }
         .projects-section-header {
-            margin-top: 5rem;
+            margin-top: 30rem;
         }
         #projects {
             margin-top: 0rem;
