@@ -253,6 +253,7 @@ p.two {
 
 .project-title {
     margin-top: 5px;
+    font-size: 20px;
 }
 
 .project-image {
@@ -285,7 +286,8 @@ p.two {
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
+    width: 100
+    font-size: 20px;
 }
 
 a {
