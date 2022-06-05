@@ -82,7 +82,7 @@ body::before {
     color: hotpink;
 }
 
-@media (max-width: 500px) {
+@media only screen (max-width: 700px) {
     .nav-list a {
         text-align: center;
     }
@@ -109,7 +109,7 @@ ul {
     font-weight: 200;
 }
 
-@media (max-width: 500px) {
+@media only screen (max-width: 700px) {
     .welcome-section {
         display: flex;
         flex-direction: column;
@@ -130,7 +130,7 @@ h1 {
     justify-content: center;
 }
 
-@media (max-width: 500px) {
+@media only screen (max-width: 700px) {
     h1 {
         margin-top: 35rem;
         text-align: center;
@@ -148,7 +148,7 @@ p.one {
     justify-content: center;
 }
 
-@media (max-width: 500px) {
+@media only screen (max-width: 700px) {
     p.one {
         justify-content: center;
         text-align: center;
@@ -164,7 +164,7 @@ img.profile {
     margin-top: -22rem;
 }
 
-@media (max-width: 500px) {
+@media only screen (max-width: 700px) {
     img.profile {
         height: 400px;
         margin-top: 10rem;
@@ -185,7 +185,7 @@ img.profile {
     height: 100vh;
 }
 
-@media (max-width: 500px) {
+@media only screen (max-width: 700px) {
     .welcome-section-two {
         margin-top: -15rem;
         margin-bottom: 0px;
@@ -226,7 +226,7 @@ p.two {
     margin-top: -1rem;
 }
 
-@media (max-width: 500px) {
+@media only screen (max-width: 700px) {
     p .two {
         margin-top: -2rem;
     }
@@ -263,7 +263,7 @@ p.two {
     margin-top: 30px;
 }
 
-@media (max-width: 500px) {
+@media only screen (max-width: 700px) {
     img {
         width: 300px;
         height: 200px;
@@ -286,7 +286,7 @@ p.two {
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    width: 100
+    width: 100%;
     font-size: 20px;
 }
 
