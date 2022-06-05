@@ -292,7 +292,7 @@ p.two {
 
 a {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .contact-section h2 {
