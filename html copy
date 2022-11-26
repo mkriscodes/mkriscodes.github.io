@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <link href="Personal Portfolio style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary Williams</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+</style>
+
+
+<nav id="navbar" class="nav">
+    <ul class="nav-list">
+        <li>
+            <a href="#welcome-section">About Me</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#contact">Contact Me</a>
+        </li>
+    </ul>
+</nav>
+
+<section id="welcome-section" class="welcome-section">
+    <h1>Hi, I'm Mary Williams</h1>
+    <p class="one">A Front-End Web Developer</p>
+</section>
+<center>
+    <img class="profile" src="https://user-images.githubusercontent.com/91165055/200202300-0de2d158-de43-4432-bfee-eb7f63441166.jpg">
+</center>
+<section id="welcome-section" class="welcome-section-two">
+    <h2 id="title">About Me</h2>
+    <p class="two">Welcome to my portfolio! <br> I am a self-taught Front-End Developer. I am passionate about building responsive and user friendly websites. I'm currently looking for a position working with HTML, CSS3, and Javascript technologies. If you are an individual
+        in need of a website, please click my email or number below to schedule a free consultation. <br> Thank you for stopping by!</p>
+</section>
+<section id="projects" class="projects-section">
+    <h2 class="projects-section-header">View My Projects</h2>
+
+    <div class="project-tile">
+        
+        <a href="https://mkriscodes.github.io/Random-Password-Generator-/" target="_blank" class="project-tile">
+            <img class="project-image" src="https://user-images.githubusercontent.com/91165055/200197378-3a56d832-4bc2-4bd5-b4d9-75dee59789a4.png" alt="Random Password Generater">
+            <p class="project-title">Random Password Generator using Vanilla JS</p>
+        </a>
+        
+        <a href="https://mkriscodes.github.io/To-Do-List/" target="_blank" class="project-tile">
+            <img class="project-image" src="https://user-images.githubusercontent.com/91165055/174941884-cab68c45-8452-4452-b262-427ea58d6d97.png" alt="To Do List">
+            <p class="project-title">To Do List using Vanilla JS</p>
+        </a>
+            
+        <a href="https://mkriscodes.github.io/Unit-Converter/" target="_blank" class="project-tile">
+            <img class="project-image" src="https://user-images.githubusercontent.com/91165055/200231730-869d4622-595e-4b98-8b28-450dbadf5a56.png" alt="Unit Converter">
+            <p class="project-title">Unit Converter using Vanilla JS</p>
+        </a>
+        
+        <a href="https://mkriscodes.github.io/Basketball-Scoreboard/" target="_blank" class="project-tile">
+            <img class="project-image" src="https://user-images.githubusercontent.com/91165055/200198128-7ec9f1a4-01b2-4673-a491-e84f839b7a56.png" alt="Basketball Scoreboard">
+            <p class="project-title">Basketball Scoreboard using Vanilla JS</p>
+        </a>
+           
+         <a href="https://mkriscodes.github.io/Restaurant-Website/" target="_blank" class="project-tile">
+            <img class="project-image" src="https://user-images.githubusercontent.com/91165055/164155861-15b3a297-9844-421d-ba5e-ca007e7f7b8d.png" alt="Restaurant Website">
+            <p class="project-title">Restaurant Website With Cart Functionality using Vanilla JS</p>
+        </a>
+            
+         <a href="https://mkriscodes.github.io/The-Children-s-Place-Email-Template/" target="_blank" class="project-tile">
+            <img class="project-image" src="https://user-images.githubusercontent.com/91165055/184559718-885a414f-6149-4d8f-911a-08f112064fde.png" alt="The Childrens Place">
+            <p class="project-title">The Children's Place Email Template</p>
+        </a>
+         
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <div class="contact-section-header">
+        <h2>Contact Me</h2>
+        <a href="tel:757-434-4170" id="phone">Phone: (757) 434-4170</a>
+        <br>
+        <a href="mailto:mkriscodes@gmail.com" id="emailt">Email: mkriscodes@gmail.com</a>
+    </div>
+</section>
+
+</html>
