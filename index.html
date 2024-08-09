@@ -8,37 +8,64 @@
     <title>Mary Williams - Web Developer</title>
 </head>
 
-<main id="main">
+<div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Mkriscodes</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="cirlce"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="cirlce"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="cirlce"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="cirlce"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn">Download CV <i class="uil uil-file-download-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+    </div>
 
-<nav id="nav-bar">
-    <ul class="nav-list">
-        <li>
-            <a href="#bio">About Me</a>
-        </li>
-        <li>
-            <a href="#projects">Projects</a>
-        </li>
-        <li>
-            <a href="#footer">Contact Me</a>
-        </li>
-    </ul>
-</nav>
-
-<section id="introduction">
-    <h1>Hi, I'm Mary Williams</h1>
-    <p class="one">A Front-End Web Developer</p>
-</section>
-
-<center>
-    <img id="profile-picture" src="https://user-images.githubusercontent.com/91165055/203090358-daf21d90-82f8-43d0-b143-618c0d3bce89.png">
-</center>
-
-<section id="bio">
-    <h2>About Me</h2>
-    <p>Welcome to my portfolio! <br> I am a self-taught Front-End Developer. I am passionate about building responsive and user friendly websites. I'm currently looking for a position working with HTML, CSS3, and Javascript technologies. If you are an individual
-    in need of a website, please click my email or number below to schedule a free consultation. <br> Thank you for stopping by!</p>
-</section>
-
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+              <div class="featured-text">
+                <div class="featured-text-card">
+                    <span>Mary Williams</span>
+                </div>
+                <div class="featured-name">
+                    <p>I'm a <span class="typedText">Developer</span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>Frontend Developer expericed in HTML, CSS, Javascript, Java, Python, and C++. I also hold a Computer Science Degree.</p>
+                </div>
+                <div class="featured-text-btn">
+                    <button class="btn blue-btn">Hire Me <a href="mkriscodes@gmail.com"></a></button></div>
+                    <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+              </div>
+              <div class="social-icons">
+                <div class="icon"><i class="uil uil-github"></i></div>
+                <div class="icon"><i class="uil uil-linkedin"></i></div>
+            </div>
+            </div>
+            </section>
+            
 <section id="projects">
     <h2>View My Projects</h2>
 
