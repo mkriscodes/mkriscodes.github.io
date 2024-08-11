@@ -1,19 +1,5 @@
+/*Font*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-:root {
-    --body-color: rgb(250, 250, 250);
-    --color-white: rgb(255, 255, 255);
-
-    --text-color-second: #c0f6ff;
-    --text-color-third: rgb(255, 105, 180);
-
-    --first-color: rgb(110, 87, 224);
-    --first-color-hover: rgb(40, 91, 212);
-
-    --second-color: rgb(0, 201, 255);
-    --third-color: rgb(192, 166, 49);
-    --first-shadow-color: rgba(0, 0, 0, 0.1);
-}
 
 *{
     margin: 0;
@@ -108,7 +94,7 @@ nav{
 .nav-name{
     font-size: 30px;
     font-weight: 600;
-    color: var(--text-color-third);
+    color: rgb(255, 105, 180);
 }
 
 .nav-logo span{
@@ -134,15 +120,6 @@ nav{
     font-weight: 500;
     padding-inline: 15px;
     margin-inline: 20px;
-}
-
-.nav-menu-btn{
-    display: none;
-}
-
-.nav-menu-btn i{
-    font-size: 28px;
-    cursor: pointer;
 }
 
 .wrapper{
@@ -186,26 +163,19 @@ nav{
 
 .typedText{
     text-transform: capitalize;
-    color: var(--text-color-third);
+    color: rgb(255, 105, 180);
 }
 
 .featured-text-info{
+    color: gray;
     font-size: 15px;
     margin-bottom: 30px;
-    
 }
 
 .featured-text-btn{
-    display: flex;
     gap: 20px;
 }
 
-.social_icons{
-    display: flex;
-    margin-top: 5em;
-    gap: 30px;
-    justify-content: space-around;
-}
 
 .icon{
     display: flex;
@@ -217,9 +187,88 @@ nav{
     box-shadow: 0px 2px 5px 0px black;
 }
 
+/*Projects*/
+
+h2{
+    color: rgb(0, 201, 255);
+    font-size: 30px;
+}
+
+#projects {
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 50px;
+    box-shadow: 0px 2px 5px 5px #a6a6ed;;
+}
+
+/*.projects-section-header {
+    margin-top: 0rem;
+}*/
+
+.project-tile {
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.project-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.project-image {
+    width: 320px;
+    height: 200px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+@media (max-width: 700px) {
+    img {
+        width: 300px;
+        height: 200px;
+    }
+    .projects-section-header {
+        margin-top: 5rem;
+    }
+    #projects {
+        margin-top: 0rem;
+    }
+}
 
 
+/*Contact*/
 
+#contact {
+    display: flex;
+    color: black;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+a {
+    color: rgb(247, 236, 143);
+    text-decoration: underline;
+}
+
+#contact h2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 
 
 /*Media*/
@@ -227,11 +276,9 @@ nav{
     .nav-button{
         display: none;
     }
-
     .nav-menu.responsive{
         left: 0;
     }
-
     .nav-menu{
         position: fixed;
         top: 80px;
@@ -239,117 +286,15 @@ nav{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: #a6a6ed;
+        background: rgba(255, 255, 255, 0.7);
         backdrop-filter: blur(20px);
         width: 100%;
         min-height: 450px;
         height: 90vh;
         transition: .3s;
     }
-
     .nav_menu_list{
         flex-direction: column;
     }
 
-    .nav-menu-btn{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .nav-link{
-        color: lemonchiffon;
-    }
-
-}
-
-/*Projects*/
-#projects {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-#projects h2 {
-    text-align: center;
-    color: rgb(39, 199, 228);
-    font-size: 30px;
-}
-
-.project-image {
-    width: 300px;
-    height: 200px;
-}
-
-#project-tile {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.project-title {
-    color: white;
-}
-
-/*Footer*/
-footer {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    height: 20vh;
-    text-align: center;
-    padding: 20px;
-}
-
-footer h2 {
-    color:rgb(39, 199, 228);
-}
-footer a:hover {
-    color:rgb(39, 199, 228);
-    cursor: pointer;
-}
-
-
-@media only screen and (max-width: 600px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    #nav-bar ul {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    #nav-bar li {
-        margin-bottom: 5px;
-    }
-
-    #nav-bar li:hover {
-        color:rgb(39, 199, 228);
-    }
-
-    #project-tile {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    footer {
-        height: 50vh;
-        text-align: center;
-        font-size: 25px;
-    }
-
-    footer a{
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 20px;
-        text-align: center;
-        align-items: center;
-        font-size: 23px;
-    }
 }
